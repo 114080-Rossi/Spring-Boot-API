@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PlayerController {
 
-    player PlayerJpaRepository
+//    player PlayerJpaRepository ;
+//
+//    public player getPlayerJpaRepository PlayerJpaRepository;
 
-    public player getPlayerJpaRepository PlayerJpaRepository;
-
-    @GetMapping("/ping")
-    public ResponseEntity<Player> getById(){
-        return null;
-    }
+//    @GetMapping("/ping")
+//    public ResponseEntity<Player> getById(){
+//        return null;
+//    }
 }

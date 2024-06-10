@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController //Es una API de tipo REST
 public class PingController {
 
-    @GetMapping("/ping")
+    @GetMapping("/ping") //Un mapeo al verbo get
     public String pong(){
         return "pong";
     }
